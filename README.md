@@ -2,7 +2,7 @@
 Simple scripts to get latitudinal and longitudinal coordinates of addresses from a CSV file, and visualize those journeys on a map.
 
 ## The project provides two useful actions:
-1. Easily getting the coordinates (latitude and longitude) of addresses in a CSV.  Either the two ends of a journey or of single addresses.
+1. Easily getting the coordinates (latitude and longitude) of addresses in a CSV.  Either the two ends of a journey or of single addresses.  A template CSV is in the repository.
 2. Mapping the journeys of point to point pairs on a customizable google map.
 
 ## Getting Coordinates
