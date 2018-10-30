@@ -2,7 +2,7 @@ import pandas as pd
 import pyperclip
 
 #**Directory of CSV file from get_coordinates.py output**
-directory = 'C:\\Users\\pamono-user\\Downloads\\'
+directory = 'C:\\Users\\'
 
 #Read the CSV to a dataframe
 data = pd.read_csv(directory + 'Coordinates Output.csv', encoding='latin-1')
