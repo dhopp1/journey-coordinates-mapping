@@ -10,6 +10,8 @@ The get_coordinates.py script takes the addresses from a CSV in the format of:
 "id", "from_street", "from_city", "from_zip", "from_country", "to_street", "to_city", "to_zip, "to_country".
 <br><br>
 Both the "id" and "to" suffixed columns can be left blank, in which case coordinates will be found only for the "from" suffixed addresses.  The output is a new CSV with the same colums but suffixed with "from_lat", "from_long", "to_lat", "to_long".
+<br><br>
+Any comments in code surrounded by "\*\*" is where the user should change parameters, directory, preferences, etc.
 
 ## Mapping Journey
 The map.py script takes the CSV output of the first script and maps the journeys to an HTML file. Customization for the journey lines takes place within the script, while customization of the map itself takes place directly in the HTML output file.
