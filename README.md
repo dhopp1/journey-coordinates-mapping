@@ -17,3 +17,5 @@ Any comments in code surrounded by "\*\*" is where the user should change parame
 The map.py script takes the CSV output of the first script and maps the journeys to an HTML file. Customization for the journey lines takes place within the script, while customization of the map itself takes place directly in the HTML output file.
 <br><br>
 More resources on customization of the map can be found at: https://developers.google.com/maps/documentation/javascript/styling#creating_a_styledmaptype
+<br><br>
+A totally automated way of creating the final map will be found in the future, but in the interim once the Map.py script is finished running, the clipboard will contain the code for the journeys to be pasted in the indicated location of the Map.html file.
