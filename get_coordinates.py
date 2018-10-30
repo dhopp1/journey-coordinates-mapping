@@ -8,7 +8,7 @@ geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1)
 #**Directory of CSV with addresses, output of CSV with coordinates, and file name of CSV**
 #CSV should have column names: "id", "from_street", "from_city", "from_zip", "from_country", "to_street", "to_city", "to_zip, "to_country"
 #"id" and "to" suffixed columns can be empty as well as "street" columns
-directory = 'C:\\Users\\pamono-user\\Desktop\\BI\\1. Reports - Ad-Hoc\\2017-11-29 Intra-Inter Transactions Map\\2018-10-29 Update\\'
+directory = 'C:\\Users\\'
 file_name = 'Addresses Template.csv'
 
 #**State if getting coordinates for journeys (True), or just points (False)**
