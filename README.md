@@ -9,7 +9,7 @@ Simple scripts to get latitudinal and longitudinal coordinates of addresses from
 The get_coordinates.py script takes the addresses from a CSV in the format of:
 "id", "from_street", "from_city", "from_zip", "from_country", "to_street", "to_city", "to_zip, "to_country".
 <br><br>
-Both the "id" and "to" suffixed columns can be left blank, in which case coordinates will be found only for the "from" suffixed addresses.  The output is a new CSV with the same colums but suffixed with "from_lat", "from_long", "to_lat", "to_long".
+Both the "id" and "to" suffixed columns can be left blank, in which case coordinates will be found only for the "from" suffixed addresses. Andy "state" aspects of addresses should be concatenated after the "city" fields.  The output is a new CSV with the same colums but suffixed with "from_lat", "from_long", "to_lat", "to_long".
 <br><br>
 Any comments in code surrounded by "\*\*" is where the user should change parameters, directory, preferences, etc.
 
