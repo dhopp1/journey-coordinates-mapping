@@ -10,7 +10,6 @@
       #map {
         height: 100%;
       }
-      /* Optional: Makes the sample page fill the window. */
       html, body {
         height: 100%;
         margin: 0;
@@ -21,10 +20,6 @@
   <body>
     <div id="map"></div>
     <script>
-
-      // This example creates a 2-pixel-wide red polyline showing the path of
-      // the first trans-Pacific flight between Oakland, CA, and Brisbane,
-      // Australia which was made by Charles Kingsford Smith.
 
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -130,7 +125,7 @@
       var code = ""
 
         eval(code)
-
+        /*Reference example of how a mapped line is structured and formatted*/
         /*var flightPlanCoordinates = [
           {lat: 48.85, lng: 2.35},
           {lat: 52.2, lng: 13.4}
@@ -147,7 +142,8 @@
       }
     </script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAH4jHo-IOSEmjBJhEt1Svz8oXH0QUqi1k&callback=initMap">
+    <!--**Place own google maps api key here**-->
+    src="https://maps.googleapis.com/maps/api/js?key=YOURAPIKEYHERE&callback=initMap">
     </script>
   </body>
 </html>
