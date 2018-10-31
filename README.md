@@ -12,6 +12,8 @@ The get_coordinates.py script takes the addresses from a CSV in the format of:
 Both the "id" and "to" suffixed columns can be left blank, in which case coordinates will be found only for the "from" suffixed addresses. Any "state" aspects of addresses should be concatenated after the "city" fields.  The output is a new CSV with the same colums but suffixed with "from_lat", "from_long", "to_lat", "to_long".
 <br><br>
 Any comments in code surrounded by "\*\*" is where the user should change parameters, directory, preferences, etc.
+#### Requirements
+Pandas and geopy
 
 ## Mapping Journey
 The map.py script takes the CSV output of the first script and maps the journeys to an HTML file. Customization for the journey lines takes place within the script, while customization of the map itself takes place directly in the HTML output file.
@@ -19,3 +21,5 @@ The map.py script takes the CSV output of the first script and maps the journeys
 More resources on customization of the map can be found at: https://developers.google.com/maps/documentation/javascript/styling#creating_a_styledmaptype
 <br><br>
 A totally automated way of creating the final map will be found in the future, but in the interim once the Map.py script is finished running, the clipboard will contain the code for the journeys to be pasted in the indicated location of the Map.html file.
+#### Requirements
+A google maps api key, obtainable from: https://developers.google.com/maps/documentation/embed/get-api-key
