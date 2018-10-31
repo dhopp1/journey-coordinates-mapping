@@ -1,3 +1,4 @@
 * linguist-vendored
 Map.html linguist-vendored=True
-*.py linguist-vendored=False
+get_coordinates.py linguist-vendored=False
+map.py linguist-vendored=False
